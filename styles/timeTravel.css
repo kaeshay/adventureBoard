@@ -16,3 +16,46 @@
   }
 
   /*positions*/
+#future{
+    position:relative;
+    top:136px;
+    left:806px;
+    width:189px;
+    opacity:0;
+}
+#future:hover{
+    opacity:1;
+}
+#past{
+  position:relative;
+  top:204px;
+  left:-77px;
+  width:180px;
+  opacity:0;
+
+}
+#past:hover{
+  opacity:1;
+}
+#present{
+    position:relative;
+    top:-45px;
+    left:72px;
+    width:256px;
+    opacity:0;
+
+}
+#present:hover{
+  opacity:1;
+}
+#zoom{
+  position:relative;
+  top:37.7px;
+  left:250px;
+  width:633px;
+  opacity:0;
+
+}
+#zoom:hover{
+  opacity:1;
+}
