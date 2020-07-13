@@ -4,6 +4,13 @@
   }
 
   #containment-wrapper {
+      position: absolute;
+      width: 1000px;
+      height:795px;
+      top: 50%;
+      left: 50%;
+      margin-top: -397.5px; /* Half the height */
+      margin-left: -500px;
       width: 1000px;
       height:795px;
       background-image: url('../assets/riceIsNice/background.jpg');

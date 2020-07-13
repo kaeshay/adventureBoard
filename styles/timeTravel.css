@@ -1,11 +1,11 @@
-  body {
-    max-width: 1000px;
-    margin: 0 auto;
-  }
-
   #containment-wrapper {
+      position: absolute;
       width: 1000px;
       height:674px;
+      top: 50%;
+      left: 50%;
+      margin-top: -337px; /* Half the height */
+      margin-left: -500px;
       background-image: url('../assets/timeTravel/background.jpg');
       background-repeat: no-repeat;
       background-size: cover;
