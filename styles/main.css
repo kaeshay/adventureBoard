@@ -44,18 +44,21 @@
 
   #riceIsNice {
     position: relative;
-    top:415px; 
-    left:135px;
+    top:408px; 
+    left:130px;
+    width:184px;
   }
 
   #timeTravel{
     position: relative;
     top:236px; 
-    left:229px;
+    left:228px;
+    width:118px;
   }
 
   #libraryTrickster{
     position: relative;
-    top:328px; 
-    left:292px;
+    top:325px; 
+    left:285px;
+    width:179px;
   }
