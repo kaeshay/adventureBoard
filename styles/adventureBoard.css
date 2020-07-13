@@ -1,36 +1,11 @@
   body {
-    /*transform: scale(.67);
-    transform-origin: 0 0;*/
     max-width: 1000px;
     margin: 0 auto;
   }
-  .draggable{
-      cursor:move;
-  }
-
-  .avatar{
-    width: 80px;
-  }
-
-  .enterable:hover{
-  }
-
-  .item{
-    width:15%;
-  }
-
-  .inventory{
-    display:none;
-    border:2px dashed #ccc;
-    width:400px;
-    height:400px;
-  }
 
   #containment-wrapper {
-      width: 1000px;
+      width: 100%;
       height:795px;
- /*     border:2px solid #ccc;*/
-/*      padding: 10px;*/
       background-image: url('../assets/adventureBoard/background.jpg');
       background-repeat: no-repeat;
       background-size: cover;
@@ -41,13 +16,12 @@
   }
 
   /*positions*/
-
   #riceIsNice {
     position: relative;
     top:408px; 
     left:130px;
     width:184px;
-  }
+    }
 
   #timeTravel{
     position: relative;
@@ -62,3 +36,4 @@
     left:285px;
     width:179px;
   }
+
