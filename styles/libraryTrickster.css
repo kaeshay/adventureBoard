@@ -1,25 +1,25 @@
-  body {
-    max-width: 1000px;
-    margin: 0 auto;
-  }
+#containment-wrapper {
+    position: absolute;
+    width: 1000px;
+    height:795px;
+    top: 50%;
+    left: 50%;
+    margin-top: -397.5px; /* Half the height */
+    margin-left: -500px;
+    width: 1000px;
+    height:795px;
+    background-image: url('../assets/libraryTrickster/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-  #containment-wrapper {
-      position: absolute;
-      width: 1000px;
-      height:795px;
-      top: 50%;
-      left: 50%;
-      margin-top: -397.5px; /* Half the height */
-      margin-left: -500px;
-      width: 1000px;
-      height:795px;
-      background-image: url('../assets/libraryTrickster/background.jpg');
-      background-repeat: no-repeat;
-      background-size: cover;
-  }
+#containment-wrapper div{
+    position: absolute;
+}
 
-  #containment-wrapper div{
-      position: absolute;
-  }
+.submission{
+  position: absolute;
+  width:4%;
+}
 
-  /*positions*/
+/*positions*/

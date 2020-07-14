@@ -1,21 +1,26 @@
-  #containment-wrapper {
-      position: absolute;
-      width: 1000px;
-      height:674px;
-      top: 50%;
-      left: 50%;
-      margin-top: -337px; /* Half the height */
-      margin-left: -500px;
-      background-image: url('../assets/timeTravel/background.jpg');
-      background-repeat: no-repeat;
-      background-size: cover;
-  }
+#containment-wrapper {
+    position: absolute;
+    width: 1000px;
+    height:674px;
+    top: 50%;
+    left: 50%;
+    margin-top: -337px; /* Half the height */
+    margin-left: -500px;
+    background-image: url('../assets/timeTravel/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-  #containment-wrapper div{
-      position: absolute;
-  }
+#containment-wrapper div{
+    position: absolute;
+}
 
-  /*positions*/
+.submission{
+  position: absolute;
+  width:4%;
+}
+
+/*positions*/
 #future{
     position:relative;
     top:136px;
@@ -59,3 +64,47 @@
 #zoom:hover{
   opacity:1;
 }
+
+/*submissions*/
+#one{
+  position:absolute;
+  top:471px;
+  left:618px;
+}
+
+#two{
+  position:absolute;
+  top:380px;
+  left:451px;
+}
+
+#three{
+  position:absolute;
+  top:601px;
+  left:451px;
+}
+#four{
+  position:absolute;
+  top:366px;
+  left:634px;
+}
+
+#five{
+  position:absolute;
+  top:634px;
+  left:760px;
+}
+
+#six{
+  position:absolute;
+  top:501px;
+  left:447px;
+}
+#seven{
+  position:absolute;
+  top:590px;
+  left:640px;
+}
+
+
+

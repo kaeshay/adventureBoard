@@ -1,94 +1,106 @@
-  body {
-    max-width: 1000px;
-    margin: 0 auto;
-  }
+#containment-wrapper {
+  position: absolute;
+  width: 1000px;
+  height:795px;
+  top: 50%;
+  left: 50%;
+  margin-top: -397.5px; /* Half the height */
+  margin-left: -500px;
+  width: 1000px;
+  height:795px;
+  background-image: url('../assets/riceIsNice/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  #containment-wrapper {
-      position: absolute;
-      width: 1000px;
-      height:795px;
-      top: 50%;
-      left: 50%;
-      margin-top: -397.5px; /* Half the height */
-      margin-left: -500px;
-      width: 1000px;
-      height:795px;
-      background-image: url('../assets/riceIsNice/background.jpg');
-      background-repeat: no-repeat;
-      background-size: cover;
-  }
+#containment-wrapper div{
+  position: absolute;
+}
 
-  #containment-wrapper div{
-      position: absolute;
-  }
+.submission{
+  position: relative;
+  width:40px;
+}
 
-  /*positions*/
-  #bottle{
-    position:relative;
-    top:184px;
-    left:444px;
-    width:180px;
-    opacity:0;
-  }
-  #bottle:hover{
-    opacity:1;
-  }
-  #knife{
-    position:relative;
-    top:207px;
-    left:-166px;
-    width:170px;
-    opacity:0;
-  }
-  #knife:hover{
-    opacity:1;
-  }
-  #leaf{
-    position:relative;
-    top:24px;
-    left:46px;
-    width:140px;
-    opacity:0;
-  }
-  #leaf:hover{
-    opacity:1;
-  }
-  #oven{
-    position:relative;
-    top:447px;
-    left:-25px;
-    width:220px;
-    opacity:0;
-  }
-  #oven:hover{
-    opacity:1;
-  }
-  #pestle{
-    position:relative;
-    top:431px;
-    left:141px;
-    width:120px;
-    opacity:0;
-  }
-  #pestle:hover{
-    opacity:1;
-  }
-  #spicy{
-    position:relative;
-    top:-79px;
-    left:157px;
-    opacity:0;
-  }
-  #spicy:hover{
-    opacity:1;
-  }
-  #wok{
-    position:relative;
-    top:103px;
-    left:331px;
-    width:210px;
-    opacity:0;
-  }
-  #wok:hover{
-    opacity:1;
-  }
+#recipes{
+  position:absolute;
+  width:400px;
+  left:40px;
+  top:550px;
+}
+
+#recipes img{
+  margin-bottom:-5px;
+}
+
+
+/*positions*/
+#bottle{
+  position:relative;
+  top:184px;
+  left:444px;
+  width:180px;
+  opacity:0;
+}
+#bottle:hover{
+  opacity:1;
+}
+#knife{
+  position:relative;
+  top:207px;
+  left:-166px;
+  width:170px;
+  opacity:0;
+}
+#knife:hover{
+  opacity:1;
+}
+#leaf{
+  position:relative;
+  top:24px;
+  left:46px;
+  width:140px;
+  opacity:0;
+}
+#leaf:hover{
+  opacity:1;
+}
+#oven{
+  position:relative;
+  top:447px;
+  left:-25px;
+  width:220px;
+  opacity:0;
+}
+#oven:hover{
+  opacity:1;
+}
+#pestle{
+  position:relative;
+  top:431px;
+  left:141px;
+  width:120px;
+  opacity:0;
+}
+#pestle:hover{
+  opacity:1;
+}
+#spicy{
+  position:relative;
+  top:-79px;
+  left:157px;
+  opacity:0;
+}
+#spicy:hover{
+  opacity:1;
+}
+#wok{
+  position:relative;
+  top:103px;
+  left:331px;
+  width:210px;
+  opacity:0;
+}
+#wok:hover{
+  opacity:1;
+}
