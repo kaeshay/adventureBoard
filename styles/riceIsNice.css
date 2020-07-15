@@ -1,5 +1,6 @@
 #containment-wrapper {
   position: absolute;
+  transform: scale(.90);
   width: 1000px;
   height:795px;
   top: 50%;
