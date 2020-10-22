@@ -8,8 +8,6 @@
       left: 50%;
       margin-top: -397.5px; /* Half the height */
       margin-left: -500px;
-      width: 1000px;
-      height:795px;
       background-image: url('../assets/adventureBoard/background.jpg');
       background-repeat: no-repeat;
       background-size: cover;
@@ -27,14 +25,14 @@
     width:184px;
     }
 
-  #timeTravel{
+  #djSpinoff{
     position: relative;
     top:236px; 
     left:228px;
     width:118px;
   }
 
-  #libraryTrickster{
+  #quaranzine{
     position: relative;
     top:325px; 
     left:285px;

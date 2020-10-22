@@ -31,13 +31,13 @@
 
 #recipes{
   position:absolute;
-  width:500px;
+  width:450px;
   left:30px;
-  top:550px;
+  top:500px;
 }
 
 #recipes img{
-  margin:10px;
+  margin:1px;
 }
 
 
