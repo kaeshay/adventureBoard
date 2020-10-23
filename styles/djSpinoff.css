@@ -31,61 +31,83 @@
 }
 
 /*positions*/
-#future{
-    position:relative;
-    top:136px;
-    left:806px;
-    width:189px;
+#disc2{
+    position:absolute;
+    top:163px;
+    left:359px;
+    width:125px;
     opacity:0;
 }
-#future:hover{
+#disc2:hover{
     opacity:1;
 }
-#past{
-  position:relative;
-  top:204px;
-  left:-77px;
-  width:180px;
-  opacity:0;
-
-}
-#past:hover{
-  opacity:1;
-}
-#present{
-    position:relative;
-    top:-45px;
-    left:72px;
-    width:256px;
+#disc3{
+    position:absolute;
+    top:403px;
+    left:155px;
+    width:115px;
     opacity:0;
-
 }
-#present:hover{
-  opacity:1;
+#disc3:hover{
+    opacity:1;
 }
-#zoom{
-  position:relative;
-  top:37.7px;
-  left:250px;
-  width:633px;
-  opacity:0;
-
+#disc4{
+    position:absolute;
+    top:434px;
+    left:344px;
+    opacity:0;
 }
-#zoom:hover{
-  opacity:1;
+#disc4:hover{
+    opacity:1;
+}
+#disc5{
+    position:absolute;
+    top:472px;
+    left:530px;
+    opacity:0;
+}
+#disc5:hover{
+    opacity:1;
+}
+#disc6{
+    position:absolute;
+    top:303px;
+    left:761px;
+    opacity:0;
+}
+#disc6:hover{
+    opacity:1;
+}
+.disc7{
+    position:absolute;
+    top:163px;
+    left:359px;
+    opacity:1;
+}
+#disc7:hover{
+    opacity:1;
+}
+.disc8{
+    position:absolute;
+    top:163px;
+    left:359px;
+    opacity:1;
+}
+#disc8:hover{
+    opacity:1;
 }
 
 /*submissions*/
 #one{
   position:absolute;
-  top:700px;
-  left:618px;
+  top:500px;
+  left:308px;
 }
 
 #two{
   position:absolute;
-  top:380px;
-  left:451px;
+  top:420px;
+  left:321px;
 }
 
 #three{

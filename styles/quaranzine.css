@@ -29,17 +29,17 @@
 
 .submission{
     position: relative;
-    width:40px;
+    width:60px;
 }
 #zines{
   position:absolute;
-  width:200px;
+  width:190px;
   left:800px;
   top:10px;
 }
 #zines img{
-  margin:7px;
-  margin-bottom:30px;
+  margin:2px;
+  margin-bottom:5px;
 }
 
 /*positions*/
@@ -61,66 +61,6 @@
     opacity:0;
 }
 #book1:hover{
-    opacity:1;
-}
-#book2{
-    position:absolute;
-    top:317px;
-    left:638px;
-    width:111.4px;
-    opacity:0;
-}
-#book2:hover{
-    opacity:1;
-}
-#book3{
-    position:absolute;
-    top:176px;
-    left:709px;
-    width:110px;
-    opacity:0;
-}
-#book3:hover{
-    opacity:1;
-}
-#bottle{
-    position:absolute;
-    top:408px;
-    left:379px;
-    width:113px;
-    opacity:0;
-}
-#bottle:hover{
-    opacity:1;
-}
-#drawer{
-    position:absolute;
-    top:630px;
-    left:1px;
-    width:125.7px;
-    opacity:0;
-}
-#drawer:hover{
-    opacity:1;
-}
-#rocker{
-    position:absolute;
-    top:471.5px;
-    left:627px;
-    width:270px;
-    opacity:0;
-}
-#rocker:hover{
-    opacity:1;
-}
-#tea{
-    position:absolute;
-    top:556px;
-    left:517px;
-    width:105.7px;
-    opacity:0;
-}
-#tea:hover{
     opacity:1;
 }
 /*submissions*/
@@ -157,20 +97,16 @@
   position:absolute;
   top:322px;
   left:579px;
-}
+}*/
 #seven{
-  position:absolute;
-  top:226px;
-  left:455px;
+  opacity:0;
 }
 
 #eight{
-  position:absolute;
-  top:400px;
-  left:550px;
+  opacity:0;
 }
 
-#nine{
+/*#nine{
   position:absolute;
   top:500px;
   left:700px;
