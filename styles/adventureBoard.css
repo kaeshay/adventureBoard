@@ -1,4 +1,6 @@
-
+body{
+  background-color:#F3E5B7;
+}
   #containment-wrapper {
       position: absolute;
       transform: scale(.90);
@@ -19,23 +21,35 @@
 
   /*positions*/
   #riceIsNice {
-    position: relative;
-    top:408px; 
-    left:130px;
-    width:184px;
-    }
+    position: absolute;
+    top:488px; 
+    left:500px;
+    width:100px;
+  }
 
   #djSpinoff{
-    position: relative;
+    position: absolute;
     top:236px; 
-    left:228px;
-    width:118px;
+    left:758px;
+    width:70px;
   }
 
   #quaranzine{
-    position: relative;
+    position: absolute;
     top:325px; 
     left:285px;
-    width:179px;
+    width:100px;
+  }
+  #libraryTrickster{
+    position: absolute;
+    top:385px; 
+    left:130px;
+    width:100px;
+  }
+  #timeTravel{
+    position: absolute;
+    top:236px; 
+    left:418px;
+    width:118px;
   }
 
