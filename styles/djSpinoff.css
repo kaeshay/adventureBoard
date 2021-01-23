@@ -2,7 +2,7 @@ body{
   background-color:#2F2F2F;
 }
 #containment-wrapper {
-     position: absolute;
+    position: absolute;
     transform: scale(.90);
     width: 1000px;
     height:795px;

@@ -20,6 +20,20 @@ body{
   }
 
   /*positions*/
+  #sunshineRock {
+    position: absolute;
+    top:458px; 
+    left:130px;
+    width:184px;
+  }
+
+  #bodyMind{
+    position: absolute;
+    top:385px; 
+    left:595px;
+    width:179px;
+  }
+
   #riceIsNice {
     position: absolute;
     top:488px; 

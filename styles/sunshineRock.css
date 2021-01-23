@@ -1,0 +1,114 @@
+body{
+  background-color:#AB9981;
+}
+#containment-wrapper {
+    position: absolute;
+    transform: scale(.90);
+    width: 1000px;
+    height:795px;
+    top: 50%;
+    left: 50%;
+    margin-top: -397.5px; /* Half the height */
+    margin-left: -500px;
+    width: 1000px;
+    height:795px;
+    background-image: url('../assets/sunshineRock/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#containment-wrapper div{
+    position: absolute;
+}
+
+#here{
+    width:260px;
+    height:30px;
+    position:absolute;
+    top:676px;
+    left:88px;
+}
+
+.submission{
+  position: absolute;
+  width:6%;
+}
+
+/*positions*/
+#future{
+    position:relative;
+    top:136px;
+    left:806px;
+    width:189px;
+    opacity:0;
+}
+#future:hover{
+    opacity:1;
+}
+/*submissions*/
+#one{
+  position:absolute;
+  top:271px;
+  left:618px;
+}
+
+#two{
+  position:absolute;
+  top:380px;
+  left:51px;
+}
+
+#three{
+  position:absolute;
+  top:601px;
+  left:451px;
+}
+#four{
+  position:absolute;
+  top:366px;
+  left:834px;
+}
+
+#five{
+  position:absolute;
+  top:634px;
+  left:860px;
+}
+
+#six{
+  position:absolute;
+  top:501px;
+  left:347px;
+}
+#seven{
+  position:absolute;
+  top:590px;
+  left:640px;
+}
+#eight{
+  position:absolute;
+  top:500px;
+  left:100px;
+}
+#nine{
+  position:absolute;
+  top:500px;
+  left:820px;
+}
+#ten{
+  position:absolute;
+  top:100px;
+  left:400px;
+}
+#eleven{
+  position:absolute;
+  top:180px;
+  left:70px;
+}
+
+
+
+
+
+
+
