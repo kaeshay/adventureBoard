@@ -47,30 +47,30 @@ body{
 /*submissions*/
 #one{
   position:absolute;
-  top:471px;
-  left:618px;
+  top:40px;
+  left:818px;
 }
 
 #two{
   position:absolute;
   top:380px;
-  left:451px;
+  left:251px;
 }
 
 #three{
   position:absolute;
-  top:601px;
+  top:661px;
   left:451px;
 }
 #four{
   position:absolute;
-  top:366px;
-  left:634px;
+  top:396px;
+  left:774px;
 }
 
 #five{
   position:absolute;
-  top:634px;
+  top:654px;
   left:760px;
 }
 
@@ -81,23 +81,23 @@ body{
 }
 #seven{
   position:absolute;
-  top:590px;
+  top:620px;
   left:640px;
 }
 #eight{
   position:absolute;
-  top:500px;
+  top:700px;
   left:200px;
 }
 #nine{
   position:absolute;
-  top:500px;
+  top:200px;
   left:700px;
 }
 #ten{
   position:absolute;
-  top:100px;
-  left:400px;
+  top:40px;
+  left:450px;
 }
 #eleven{
   position:absolute;
