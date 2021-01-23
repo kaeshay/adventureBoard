@@ -3,7 +3,7 @@ body{
 }
 #containment-wrapper {
     position: absolute;
-    transform: scale(.90);
+    transform: scale(.80);
     width: 1000px;
     height:674px;
     top: 50%;
