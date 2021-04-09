@@ -2,21 +2,7 @@ body{
   background-color:#2F2F2F;
 }
 #containment-wrapper {
-    position: absolute;
-    transform: scale(.80);
-    width: 1000px;
-    height:795px;
-    top: 50%;
-    left: 50%;
-    margin-top: -397.5px; /* Half the height */
-    margin-left: -500px;
     background-image: url('../assets/djSpinoff/background.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#containment-wrapper div{
-    position: absolute;
 }
 
 #here{
@@ -160,6 +146,5 @@ body{
   top:100px;
   left:100px;
 }
-
 
 

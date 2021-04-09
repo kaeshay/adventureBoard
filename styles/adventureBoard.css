@@ -2,25 +2,10 @@ body{
   background-color:#F3E5B7;
 }
   #containment-wrapper {
-      position: absolute;
-      transform: scale(.80);
-      width: 1000px;
-      height:795px;
-      top: 50%;
-      left: 50%;
-      margin-top: -397.5px; /* Half the height */
-      margin-left: -500px;
       background-image: url('../assets/adventureBoard/background.jpg');
-      background-repeat: no-repeat;
-      background-size: cover;
   }
-
-  #containment-wrapper div{
-      position: absolute;
-  }
-
   /*positions*/
-  #sunshineRock {
+  #djSpinoff {
     position: absolute;
     top:458px; 
     left:130px;
@@ -41,11 +26,11 @@ body{
     width:100px;
   }
 
-  #djSpinoff{
+  #sunshineRock{
     position: absolute;
     top:236px; 
-    left:758px;
-    width:70px;
+    left:748px;
+    width:100px;
   }
 
   #quaranzine{

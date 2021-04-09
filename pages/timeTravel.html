@@ -3,6 +3,7 @@
 <head>
 	<title>Time Travel</title>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../styles/main.css">
 	<link rel="stylesheet" type="text/css" href="../styles/timeTravel.css">
 	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
@@ -16,42 +17,6 @@
 		<a href="https://zoom.us/j/97571363383" target="_blank"><img id="zoom" src="../assets/timeTravel/zoom.png"></a>
 
 		<!-- submissions -->
-		<a href="../assets/timeTravel/submissions/1.jpg" target="_blank">
-		<img id="one" class="submission" src="../assets/timeTravel/submissions/thumbnails/1.jpg">
-		</a>
-		<a href="../assets/timeTravel/submissions/2.jpg" target="_blank">
-		<img id="two" class="submission" src="../assets/timeTravel/submissions/thumbnails/2.jpg">
-		</a>
-		<a href="../assets/timeTravel/submissions/3.jpg" target="_blank">
-		<img id="three" class="submission" src="../assets/timeTravel/submissions/thumbnails/3.jpg">
-		</a>
-		<a href="../assets/timeTravel/submissions/4.jpg" target="_blank">
-		<img id="four" class="submission" src="../assets/timeTravel/submissions/thumbnails/4.jpg">
-		</a>
-		<a href="../assets/timeTravel/submissions/5.jpg" target="_blank">
-		<img id="five" class="submission" src="../assets/timeTravel/submissions/thumbnails/5.jpg">
-		</a>
-		<a href="../assets/timeTravel/submissions/6.jpg" target="_blank">
-		<img id="six" class="submission" src="../assets/timeTravel/submissions/thumbnails/6.jpg">
-		</a>
-		<a href="../assets/timeTravel/submissions/7.jpg" target="_blank">
-		<img id="seven" class="submission" src="../assets/timeTravel/submissions/thumbnails/7.jpg">
-		</a>
-		<a href="../assets/timeTravel/submissions/8.jpg" target="_blank">
-		<img id="eight" class="submission" src="../assets/timeTravel/submissions/thumbnails/8.jpg">
-		</a>
-		<a href="../assets/timeTravel/submissions/9.jpg" target="_blank">
-		<img id="nine" class="submission" src="../assets/timeTravel/submissions/thumbnails/9.jpg">
-		</a>
-		<a href="../assets/timeTravel/submissions/10.jpg" target="_blank">
-		<img id="ten" class="submission" src="../assets/timeTravel/submissions/thumbnails/10.jpg">
-		</a>
-		<a href="../assets/timeTravel/submissions/11.jpg" target="_blank">
-		<img id="eleven" class="submission" src="../assets/timeTravel/submissions/thumbnails/11.jpg">
-		</a>
-		<a href="../assets/timeTravel/submissions/12.jpg" target="_blank">
-		<img id="twelve" class="submission" src="../assets/timeTravel/submissions/thumbnails/12.jpg">
-		</a>
 		<!-- <a href="../assets/timeTravel/submissions/13.jpg" target="_blank">
 		<img id="thirteen" class="submission" src="../assets/timeTravel/submissions/thumbnails/13.jpg">
 		</a>
@@ -64,7 +29,49 @@
 		<a href="../assets/timeTravel/submissions/16.jpg" target="_blank">
 		<img id="sixteen" class="submission" src="../assets/timeTravel/submissions/thumbnails/16.jpg">
 		</a> -->
+		<img id="chest" onclick="openChest('../')" src="../assets/treasureChest/chest1.png">
+		<a href="mailto:adventureboard2021@gmail.com"><img id="submit" class="hidden" src="../assets/treasureChest/submit.png"></a>
+		<div id="treasures" class="hidden">
+			<img class="treasure" src="../assets/treasureChest/past.png">
+			<a href="../assets/timeTravel/submissions/1.jpg" target="_blank">
+			<img id="one" class="treasure" src="../assets/timeTravel/submissions/thumbnails/1.jpg">
+			</a>
+			<a href="../assets/timeTravel/submissions/2.jpg" target="_blank">
+			<img id="two" class="treasure" src="../assets/timeTravel/submissions/thumbnails/2.jpg">
+			</a>
+			<a href="../assets/timeTravel/submissions/3.jpg" target="_blank">
+			<img id="three" class="treasure" src="../assets/timeTravel/submissions/thumbnails/3.jpg">
+			</a>
+			<a href="../assets/timeTravel/submissions/4.jpg" target="_blank">
+			<img id="four" class="treasure" src="../assets/timeTravel/submissions/thumbnails/4.jpg">
+			</a>
+			<a href="../assets/timeTravel/submissions/5.jpg" target="_blank">
+			<img id="five" class="treasure" src="../assets/timeTravel/submissions/thumbnails/5.jpg">
+			</a>
+			<a href="../assets/timeTravel/submissions/6.jpg" target="_blank">
+			<img id="six" class="treasure" src="../assets/timeTravel/submissions/thumbnails/6.jpg">
+			</a>
+			<a href="../assets/timeTravel/submissions/7.jpg" target="_blank">
+			<img id="seven" class="treasure" src="../assets/timeTravel/submissions/thumbnails/7.jpg">
+			</a>
+			<a href="../assets/timeTravel/submissions/8.jpg" target="_blank">
+			<img id="eight" class="treasure" src="../assets/timeTravel/submissions/thumbnails/8.jpg">
+			</a>
+			<a href="../assets/timeTravel/submissions/9.jpg" target="_blank">
+			<img id="nine" class="treasure" src="../assets/timeTravel/submissions/thumbnails/9.jpg">
+			</a>
+			<a href="../assets/timeTravel/submissions/10.jpg" target="_blank">
+			<img id="ten" class="treasure" src="../assets/timeTravel/submissions/thumbnails/10.jpg">
+			</a>
+			<a href="../assets/timeTravel/submissions/11.jpg" target="_blank">
+			<img id="eleven" class="treasure" src="../assets/timeTravel/submissions/thumbnails/11.jpg">
+			</a>
+			<a href="../assets/timeTravel/submissions/12.jpg" target="_blank">
+			<img id="twelve" class="treasure" src="../assets/timeTravel/submissions/thumbnails/12.jpg">
+			</a>
+		</div>
+		<img id="tips" src="../assets/treasureChest/tips.png">
 	</div>
 </body>
-<script type="text/javascript" src="../scripts/draggable.js"></script>
+<script type="text/javascript" src="../scripts/main.js"></script>
 </html>

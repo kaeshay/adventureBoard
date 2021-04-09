@@ -3,6 +3,7 @@
 <head>
 	<title>Sunshine Rock</title>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../styles/main.css">
 	<link rel="stylesheet" type="text/css" href="../styles/sunshineRock.css">
 	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
@@ -10,40 +11,36 @@
 <body>
 	<div id="containment-wrapper">
 		<a href="https://us02web.zoom.us/j/85826122702" target="_blank"><div id="here"></div></a>
-		<a href="../assets/sunshineRock/submissions/1.jpg" target="_blank">
-		<img id="one" class="submission" src="../assets/sunshineRock/submissions/thumbnails/1.jpg">
-		</a>
-		<a href="https://youtu.be/NQj1ZfSJpEg" target="_blank">
-		<img id="two" class="submission" src="../assets/sunshineRock/submissions/thumbnails/2.jpg">
-		</a>
-		<a href="../assets/sunshineRock/submissions/3.jpg" target="_blank">
-		<img id="three" class="submission" src="../assets/sunshineRock/submissions/thumbnails/3.jpg">
-		</a>
-		<a href="../assets/sunshineRock/submissions/4.jpg" target="_blank">
-		<img id="four" class="submission" src="../assets/sunshineRock/submissions/thumbnails/4.jpg">
-		</a>
-		<a href="../assets/sunshineRock/submissions/5.jpg" target="_blank">
-		<img id="five" class="submission" src="../assets/sunshineRock/submissions/thumbnails/5.jpg">
-		</a>
-		<a href="../assets/sunshineRock/submissions/6.jpg" target="_blank">
-		<img id="six" class="submission" src="../assets/sunshineRock/submissions/thumbnails/6.jpg">
-		</a>
-		<a href="../assets/sunshineRock/submissions/7.jpg" target="_blank">
-		<img id="seven" class="submission" src="../assets/sunshineRock/submissions/thumbnails/7.jpg">
-		</a>
-		<a href="../assets/sunshineRock/submissions/8.jpg" target="_blank">
-		<img id="eight" class="submission" src="../assets/sunshineRock/submissions/thumbnails/8.jpg">
-		</a>
-	<!-- 	<a href="../assets/sunshineRock/submissions/9.jpg" target="_blank">
-		<img id="nine" class="submission" src="../assets/sunshineRock/submissions/thumbnails/9.jpg">
-		</a>
-		<a href="../assets/sunshineRock/submissions/10.jpg" target="_blank">
-		<img id="ten" class="submission" src="../assets/sunshineRock/submissions/thumbnails/10.jpg">
-		</a>
-		<a href="../assets/sunshineRock/submissions/11.jpg" target="_blank">
-		<img id="eleven" class="submission" src="../assets/sunshineRock/submissions/thumbnails/11.jpg">
-		</a> -->
+		<img id="chest" onclick="openChest('../')" src="../assets/treasureChest/chest1.png">
+		<a href="mailto:adventureboard2021@gmail.com"><img id="submit" class="hidden" src="../assets/treasureChest/submit.png"></a>
+		<div id="treasures" class="hidden">
+			<img class="treasure" src="../assets/treasureChest/past.png">
+			<a href="../assets/sunshineRock/submissions/1.jpg" target="_blank">
+			<img id="one" class="treasure" src="../assets/sunshineRock/submissions/thumbnails/1.jpg">
+			</a>
+			<a href="https://youtu.be/NQj1ZfSJpEg" target="_blank">
+			<img id="two" class="treasure" src="../assets/sunshineRock/submissions/thumbnails/2.jpg">
+			</a>
+			<a href="../assets/sunshineRock/submissions/3.jpg" target="_blank">
+			<img id="three" class="treasure" src="../assets/sunshineRock/submissions/thumbnails/3.jpg">
+			</a>
+			<a href="../assets/sunshineRock/submissions/4.jpg" target="_blank">
+			<img id="four" class="treasure" src="../assets/sunshineRock/submissions/thumbnails/4.jpg">
+			</a>
+			<a href="../assets/sunshineRock/submissions/5.jpg" target="_blank">
+			<img id="five" class="treasure" src="../assets/sunshineRock/submissions/thumbnails/5.jpg">
+			</a>
+			<a href="../assets/sunshineRock/submissions/6.jpg" target="_blank">
+			<img id="six" class="treasure" src="../assets/sunshineRock/submissions/thumbnails/6.jpg">
+			</a>
+			<a href="../assets/sunshineRock/submissions/7.jpg" target="_blank">
+			<img id="seven" class="treasure" src="../assets/sunshineRock/submissions/thumbnails/7.jpg">
+			</a>
+			<a href="../assets/sunshineRock/submissions/8.jpg" target="_blank">
+			<img id="eight" class="treasure" src="../assets/sunshineRock/submissions/thumbnails/8.jpg">
+			</a>
+		</div>
 	</div>
 </body>
-<script type="text/javascript" src="../scripts/draggable.js"></script>
+<script type="text/javascript" src="../scripts/main.js"></script>
 </html>

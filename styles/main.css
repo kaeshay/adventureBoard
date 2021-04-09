@@ -1,0 +1,70 @@
+#containment-wrapper {
+    position: absolute;
+    transform: scale(.80);
+    width: 1000px;
+    height:795px;
+    top: 50%;
+    left: 50%;
+    margin-top: -397.5px; /* Half the height */
+    margin-left: -500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#containment-wrapper div{
+    position: absolute;
+}
+#chest{
+  position:absolute;
+  top: 88%;
+  left:98%;
+  width:120px;
+}
+.hidden{
+  position:absolute;
+  opacity:0;
+  left:98%;
+}
+#treasures{
+  position:absolute;
+  /*display: flex;
+  flex-direction: column-reverse;*/
+/*  border:solid 1px black;*/
+  width:100px;
+  height:612px;
+  top:0%;
+  overflow-y:scroll;
+  scrollbar-color: rgba(0,0,0,0.5) #ffffff00;
+  scrollbar-width: thin;
+}
+#treasures img{
+  margin-top:10px;
+  width:80px;
+}
+#submit{
+  top: 81%;
+  width:70px;
+}
+#tips{
+  position:absolute;
+  top:63%;
+  left:95%;
+  width:200px;
+}
+/*effects*/
+#treasures::-webkit-scrollbar {
+    width: 8px;
+}
+
+#treasures::-webkit-scrollbar-track {
+    border-radius: 6px;
+}
+
+#treasures::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+@keyframes appear {
+from{opacity:0;}
+to{opacity:1;}
+}
